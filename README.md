@@ -4,5 +4,5 @@
 
 ## Welcome to the repository! 
 
-The ultimate goal here is to use a dataset to predict a player's rank. I also want to use this README as a step-by-step journal.
+The ultimate goal here is to use a dataset to predict a player's rank. I also want to use this README as a step-by-step journal of the process.
 
