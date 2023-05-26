@@ -51,7 +51,10 @@ The notebook markdown cells go into more detail about this, but here are some of
 
 ![kde_plots](https://github.com/ddeneau/StarcraftRankPrediction/assets/58960615/898d33af-7b63-43ec-b1c1-084ff5d8b377)
 
-The rest of the variables were plotted in histograms and kde's as well. These were amongst the most normal-looking. Based on this process, I ended up deciding on which columns from the dataset to use as predictors.
+The rest of the variables were plotted in histograms and kde's as well. These were amongst the most normal-looking. Based on this process, I ended up deciding on which columns from the dataset to use as predictors. This is the final dataframe that I created from the existing columns in the original:
+<img width="800" alt="Screen Shot 2023-05-26 at 5 51 01 PM" src="https://github.com/ddeneau/StarcraftRankPrediction/assets/58960615/07c36c6d-4178-44c2-b8a2-fff22c083f93">
+
+
 
 
 
