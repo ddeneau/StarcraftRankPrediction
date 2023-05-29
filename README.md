@@ -66,7 +66,9 @@ It talks about how logistic regression is a good starting classification techniq
 
 Since the LR models did not score too well, I decided to try a support vector machine.
 
-https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html![svm](https://github.com/ddeneau/StarcraftRankPrediction/assets/58960615/ae5c7d5e-c72f-4c67-a567-9a030b0f9adb)
+https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+
+![svm](https://github.com/ddeneau/StarcraftRankPrediction/assets/58960615/ae5c7d5e-c72f-4c67-a567-9a030b0f9adb)
 
 This performed about the same as the logistic regression model. This led me to look at tree-based methods finally.
 https://scikit-learn.org/stable/modules/tree.html
