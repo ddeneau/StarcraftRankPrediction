@@ -54,6 +54,19 @@ The notebook markdown cells go into more detail about this, but here are some of
 The rest of the variables were plotted in histograms and kde's as well. These were amongst the most normal-looking. Based on this process, I ended up deciding on which columns from the dataset to use as predictors. This is the final dataframe that I created from the existing columns in the original:
 <img width="800" alt="Screen Shot 2023-05-26 at 5 51 01 PM" src="https://github.com/ddeneau/StarcraftRankPrediction/assets/58960615/07c36c6d-4178-44c2-b8a2-fff22c083f93">
 
+## Step 3a: Regression Model
+
+Apparently this one did not work out too well. The testing and training scores ultimately were pretty low. I picked lbfgs as the solver with l2 as the penalty.
+This article helped me to undertand what I was doing more than I have in the past: https://towardsdatascience.com/dont-sweat-the-solver-stuff-aea7cddc3451
+It talks about how logistic regression is a good starting classification technique.
+
+
+
+
+## Step 3b: Support Vector Machine
+
+Since the LR models did not score too well, 
+
 
 
 
