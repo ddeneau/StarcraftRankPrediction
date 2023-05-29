@@ -63,11 +63,18 @@ It talks about how logistic regression is a good starting classification techniq
 
 
 
-## Step 3b: Support Vector Machine
+## Step 3b: Support Vector Machine and Extra Trees Classifier
 
-Since the LR models did not score too well, 
+Since the LR models did not score too well, I decided to try a support vector machine.
+https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
 
+This performed about the same as the logistic regression model. This led me to look at tree-based methods finally.
+https://scikit-learn.org/stable/modules/tree.html
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html
 
+The results were actually worse than the regression model. For different subsets of predictor variables that I tried, the methods scored between 30% and 40%
+
+![etcm](https://github.com/ddeneau/StarcraftRankPrediction/assets/58960615/51c67050-3b1b-41d8-816c-c0440ad64b0d)
 
 
 
