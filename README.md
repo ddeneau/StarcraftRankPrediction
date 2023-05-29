@@ -58,15 +58,15 @@ The rest of the variables were plotted in histograms and kde's as well. These we
 
 Apparently this one did not work out too well. The testing and training scores ultimately were pretty low. I picked lbfgs as the solver with l2 as the penalty.
 This article helped me to undertand what I was doing more than I have in the past: https://towardsdatascience.com/dont-sweat-the-solver-stuff-aea7cddc3451
-It talks about how logistic regression is a good starting classification technique.
+It talks about how logistic regression is a good starting classification technique. Below are the training and testing scores for the model, and then again with different solver parameters.
 
-
-
+<img width="671" alt="Screen Shot 2023-05-29 at 4 21 18 PM" src="https://github.com/ddeneau/StarcraftRankPrediction/assets/58960615/74744195-1353-4545-ab8b-153f0e083887">
 
 ## Step 3b: Support Vector Machine and Extra Trees Classifier
 
 Since the LR models did not score too well, I decided to try a support vector machine.
-https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+
+https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html![svm](https://github.com/ddeneau/StarcraftRankPrediction/assets/58960615/ae5c7d5e-c72f-4c67-a567-9a030b0f9adb)
 
 This performed about the same as the logistic regression model. This led me to look at tree-based methods finally.
 https://scikit-learn.org/stable/modules/tree.html
@@ -76,6 +76,6 @@ The results were actually worse than the regression model. For different subsets
 
 ![etcm](https://github.com/ddeneau/StarcraftRankPrediction/assets/58960615/51c67050-3b1b-41d8-816c-c0440ad64b0d)
 
-
+After exploring these models with different subsets of relevant player data predictor variables, it seems that they are decent, but not great predictors of a players league rank. The multiclass regression model is showing similar testing and training scores, which is a good sign that the model isn't over or underfitting, and is giving accuruate results sometimes.
 
 
