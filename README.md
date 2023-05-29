@@ -80,4 +80,6 @@ The results were actually worse than the regression model. For different subsets
 
 After exploring these models with different subsets of relevant player data predictor variables, it seems that they are decent, but not great predictors of a players league rank. The multiclass regression model is showing similar testing and training scores, which is a good sign that the model isn't over or underfitting, and is giving accuruate results sometimes.
 
+For future data collection, that relate to player actions like ActionsPerMinute or NumerOfPACs, and GapBetweenPACs seem to be the most useful at improving the model scores. Whereas HoursPerWeek, TotalHours, or Age do not.
+
 
